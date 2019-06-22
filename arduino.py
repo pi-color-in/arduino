@@ -4,7 +4,7 @@ import serial
 # dataB=''
 
 #use ttyUSB0 se for o caso, ou se for Windows, COMx.
-arduino = serial.Serial('/dev/ttyACM0',9600,timeout=2)
+arduino = serial.Serial('/dev/ttyACM0',9600)
 
 # dataB=bytes.encode(data)
 # print(type(dataB))
